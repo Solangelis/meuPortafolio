@@ -1,0 +1,939 @@
+
+body {
+  font-family: Raleway;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 16px 64px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.foto-logo {
+  width: 30px;
+}
+
+.nome-container {
+  color: #333333;
+  font-weight: bold;
+ 
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.navegacao {
+  align-items: center;
+  margin: 0;
+  
+}
+
+.navegacao-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.navegacao-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.navegacao-lista {
+  text-decoration: none;
+  color: #464646;
+  font-size: 16px;
+  font-family: Raleway;
+  font-weight: 500;
+}
+
+.text-container {
+ display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex: 1;
+  max-width: 751px;
+ 
+}
+
+.portafolioTitulo {
+  font-size: 52px;
+  margin-top: 0;
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+.portafolioParagrafo {
+  font-size: 22px;
+  margin-top: 24px;    
+  margin-bottom: 24px;
+}
+
+.portafolioLista {
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-items: center;
+
+  
+}
+
+.fotos {
+ width: 368px ;
+ height: 368px;
+ border-radius: 50%;
+ overflow: hidden;
+
+}
+
+.logo-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icono{
+  padding-right: 32px;
+}
+
+.portafolioSubtitulo {
+  font-size: 32px;
+  font-family: Raleway;
+font-weight: 700;
+color: #000000;
+}
+
+
+.sobreparagrafo {
+font-size: 16px;
+
+}
+
+
+
+.text__skills {
+  text-align: center;
+  font-size: 32px;
+  font-family: Raleway;
+  font-weight: 700;
+  justify-content: center;
+   margin-top: 2rem;
+   background-color: #EAF2FD;
+}
+  
+
+
+.projetos-container {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+
+
+.projetos-item {
+  flex: 0 0 100%; 
+  margin-right: 20px; 
+}
+
+.projetos-item img {
+  width: 100%;
+  height: auto;
+  transform: scale(0.8);
+  transition: transform 0.7s ease-in-out;
+}
+
+.projetos-item:hover img {
+  transform: scale(1); 
+}
+
+.contato-container {
+  display: flex;
+  align-items: center;
+}
+
+.contato-info {
+  flex: 1;
+  text-align: center;
+}
+
+.contato-info img {
+  max-width: 100%;
+  height: 420px;
+}
+
+.contato-form {
+  flex: 2;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contato-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-grupo {
+  margin-bottom: 15px;
+}
+
+.form-grupo label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #2A7AE4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #1f58a3b2;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
