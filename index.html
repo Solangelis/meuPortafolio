@@ -18,21 +18,23 @@
 
     <header class="navegacao">
         <div class="container">
-            <div class="logo-container">
+            <div class="logo__container">
                 <img src="/css/imagen/auto.png" alt="Logo" class="foto-logo">
                 <h1 class="nome-container">Solangelis Hernandez</h1>
             </div>
 
-            <nav class="navegacao-menu">
+
+            <nav class="navegacao__menu">
+
                 <ul>
                     
                     
-                    <li><a class="navegacao-lista" href="#sobreMim">Sobre Mim</a></li>
-                    <li><a class="navegacao-lista" href="#skills">Skills</a></li>
-                    <li><a class="navegacao-lista" href="#hobbies">Hobbies</a></li>
-                    <li><a class="navegacao-lista" href="#formacao">Formação</a></li>
-                    <li><a class="navegacao-lista" href="#projetos">Projetos</a></li>
-                    <li><a class="navegacao-lista" href="#contato">solangelis1104@gmil.com</a></li>
+                    <li class="ocultar__movil"><a class="navegacao-lista" href="#sobreMim">Sobre Mim</a></li>
+                    <li class="ocultar__movil"><a class="navegacao-lista" href="#skills">Skills</a></li>
+                    <li class="ocultar__movil"><a class="navegacao-lista" href="#hobbies">Hobbies</a></li>
+                    <li class="ocultar__movil"><a class="navegacao-lista" href="#formacao">Formação</a></li>
+                    <li class="ocultar__movil"><a class="navegacao-lista" href="#projetos">Projetos</a></li>
+                    <li><a class="navegacao__lista" href="#contato">solangelis1104@gmil.com</a></li>
                 </ul>
             </nav>
         </div>
@@ -40,7 +42,7 @@
 
     <main>
         <div class="container">
-            <div class="text-container">
+            <div class="text__container">
                 <h1 class="portafolioTitulo">Olá, meu nome é Solangelis sou apaixonada pelas Tecnologias</h1>
                 <p>Estou me preparando estudando, atualmente participando no projeto Oracle ONE na Alura.</p>
                 <ul class="portafolioLista">
@@ -54,7 +56,7 @@
                     <img class="icono" src="/css/imagen/arrow.png" alt="">
                 </ul>
             </div>
-            <div class="image-container">
+            <div class="image__container">
                 <img class="fotos" src="/css/imagen/sol3.jpg" alt="">
             </div>
         </div>
@@ -103,17 +105,17 @@
             </div>
         </div>
 
-        <div class="projetos-container" id="projetos">
+        <div class="projetos__container" id="projetos">
             <h3 class="text__skills">Experiencia Profissional</h3>
             <div class="projetos-wrapper">
 
-                <div class="projetos-item">
+                <div class="projetos__item">
                     <img src="/css/imagen/projeto1.png" alt="Imagen 1">
                 </div>
-                <div class="projetos-item">
+                <div class="projetos__item">
                     <img src="/css/imagen/projeto2.png" alt="Imagen 2">
                 </div>
-                <div class="projetos-item">
+                <div class="projetos__item">
                     <img src="/css/imagen/projeto4.png" alt="Imagen 3">
                 </div>
 
@@ -121,26 +123,26 @@
         </div>
 
 
-        <div class="contato-container" id="contato">
-            <div class="contato-info">
+        <div class="contato__container" id="contato">
+            <div class="contato__info">
                 <img class="" src="/css/imagen/contact.jpg" alt="Foto de contacto">
             </div>
-            <div class="contato-form">
+            <div class="contato__form">
                 <h2>Formulario de Contacto</h2>
                 <form>
-                    <div class="form-grupo">
+                    <div class="form__grupo">
                         <label for="name">Nome:</label>
                         <input type="text" id="nome" name="nome" required placeholder="Alice">
                     </div>
-                    <div class="form-grupo">
+                    <div class="form__grupo">
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email" required placeholder="seumail@domini.com">
                     </div>
-                    <div class="form-grupo">
+                    <div class="form__grupo">
                         <label for="subject">Assunto:</label>
                         <input type="text" id="subject" name="subject" required>
                     </div>
-                    <div class="form-grupo">
+                    <div class="form__grupo">
                         <label for="mesagem">Mensagem:</label>
                         <textarea id="mesagem" name="mesagem" required></textarea>
                     </div>
