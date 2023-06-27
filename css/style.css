@@ -220,7 +220,7 @@ button:hover {
 /*Estilos para Tablet*/
 
 @media (max-width: 768px) {
-  /* Estilos para tablet */
+
  
    .ocultar__movil{
      display: none;
@@ -236,6 +236,48 @@ button:hover {
   .portafolioTitulo {
     font-size: 32px;
   }
+ 
+}
+
+
+  /* Estilos para mobile */
+@media (max-width: 480px) {
+ 
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+  }
+  .icono{
+    padding-right: 10px;
+  }
+  .portafolioLista{
+flex-wrap: nowrap;
+align-content: center;
+align-items: center;
+
+  }
+  .text__container{
+    order:2;
+    flex-basis: 100%;
+  }
+  .fotos{
+    order: 1;
+  }
+
+  .ocultar__movil{
+    display: none;
+  }
+  
+  
+  .nome-container {
+    font-size:16px ;
+  }
+  .portafolioTitulo, .titulos, .portafolioSubtitulo , .text__skills {
+    font-size: 22px;
+  }
+  
  
 }
 
